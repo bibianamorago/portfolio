@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/backgroundHome.png");
+  font-family: 'Montserrat', sans-serif, 'Merriweather', serif;
+  text-align: left;
+  overflow-x: hidden;
+  width: 100%;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: #1E2434;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: #1E2434;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d8d8d869;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  top: 0;
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  z-index: 999;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8d8d81f;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding-left: 149px;
+  padding-right: 149px;
+}
+
+.menu {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #fafafa;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.item-list{
+  margin-right: 20px
+}
+
+.footer {
+  text-decoration: none;
+}
+
+.email{
+  text-decoration: none;
+  color: #1E2434;
+}
+
+
+#ironhack {
+  width: 60px;
+}
+
+#EURM{
+  width: 300px;
+}
+
+#PUJ{
+  width: 100px;
+}
+
+#Instagram {
+  width: 20px;
+}
+
+#linkedin {
+  width: 20px;
+}
+
+#behance {
+  width: 20px;
+}
+
+#Medium {
+  width: 20px;
+}
